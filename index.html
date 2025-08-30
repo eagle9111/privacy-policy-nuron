@@ -5,62 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - NASA Shorts App</title>
   <style>
+    /* Base Styles */
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fff;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #f9f9f9;
       color: #333;
       margin: 0;
-      padding: 0 20px;
+      padding: 0;
       line-height: 1.6;
     }
-    h1, h2 {
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
       color: #111;
     }
-    h1 {
-      margin-top: 20px;
-    }
+
     h2 {
-      margin-top: 15px;
+      margin-top: 25px;
+      font-size: 1.3rem;
+      color: #222;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
     }
+
     p {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      color: #555;
     }
+
     ul {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      padding-left: 20px;
+      color: #555;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer note */
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 15px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
+  <div class="container">
+    <h1>Privacy Policy</h1>
 
-  <p>Effective Date: August 30, 2025</p>
+    <p>Effective Date: August 30, 2025</p>
 
-  <h2>1. Introduction</h2>
-  <p>Welcome to NASA Shorts App. Your privacy is important to us. This Privacy Policy explains how our app handles data and permissions.</p>
+    <h2>1. Introduction</h2>
+    <p>Welcome to NASA Shorts App. Your privacy is important to us. This Privacy Policy explains how our app handles data and permissions.</p>
 
-  <h2>2. Data Collection</h2>
-  <p>Our app fetches public video and media content from NASA's open APIs. No personal data is required or collected from users. You can use the app without signing in or creating an account.</p>
+    <h2>2. Data Collection</h2>
+    <p>Our app fetches public video and media content from NASA's open APIs. No personal data is required or collected from users. You can use the app without signing in or creating an account.</p>
 
-  <h2>3. Permissions</h2>
-  <p>To provide the best user experience, our app may request the following permissions:</p>
-  <ul>
-    <li><strong>Storage Access:</strong> To cache videos for smoother playback.</li>
-    <li><strong>Media Playback:</strong> To play NASA videos inside the app.</li>
-  </ul>
-  <p>No other personal information or private data is accessed or stored.</p>
+    <h2>3. Permissions</h2>
+    <p>To provide the best user experience, our app may request the following permissions:</p>
+    <ul>
+      <li><strong>Storage Access:</strong> To cache videos for smoother playback.</li>
+      <li><strong>Media Playback:</strong> To play NASA videos inside the app.</li>
+    </ul>
+    <p>No other personal information or private data is accessed or stored.</p>
 
-  <h2>4. Data Storage</h2>
-  <p>We do not store any personal user information on our servers or locally. Your favorites are stored locally on your device using secure storage, but this information is not shared.</p>
+    <h2>4. Data Storage</h2>
+    <p>We do not store any personal user information on our servers or locally. Your favorites are stored locally on your device using secure storage, but this information is not shared.</p>
 
-  <h2>5. Third-Party Services</h2>
-  <p>All content is retrieved directly from NASA’s public APIs. We do not use third-party analytics or advertising services that collect personal data.</p>
+    <h2>5. Third-Party Services</h2>
+    <p>All content is retrieved directly from NASA’s public APIs. We do not use third-party analytics or advertising services that collect personal data.</p>
 
-  <h2>6. Updates to this Policy</h2>
-  <p>We may update this Privacy Policy from time to time. Any changes will be reflected in this page with an updated effective date.</p>
+    <h2>6. Updates to this Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected in this page with an updated effective date.</p>
 
-  <h2>7. Contact Us</h2>
-  <p>If you have questions or concerns about this Privacy Policy, please contact us through our GitHub repository or support channels.</p>
+    <h2>7. Contact Us</h2>
+    <p>If you have questions or concerns about this Privacy Policy, please contact us through our <a href="https://github.com/eagle9111/privacy-policy-nuron">GitHub repository</a> or support channels.</p>
 
-  <p>Thank you for using NASA Shorts App.</p>
+    <p class="footer">Thank you for using NASA Shorts App.</p>
+  </div>
 </body>
 </html>
